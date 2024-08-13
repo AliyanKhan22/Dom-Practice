@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main1">
+    <p class="Para 1" id="text">Aliyan</p>
+    
+    <button onclick="removeElem()">Remove</button>
+    </div>
+    <div id="main2">
+
+        <p class="Para 2" id="text">Khan</p>
+        <button onclick="removeElem()">Remove</button>
+        </div>
+       </body>
+       <script>
+
+        function removeElem (){
+     let text = document.getElementById("text")
+     text.remove()
+}
+
+       </script>
+</html>
